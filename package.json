@@ -1,0 +1,22 @@
+{
+  "name": "ripple-account-funder",
+  "version": "0.0.2",
+  "description": "Command line tool to check who is the funder of a specified ripple account.",
+  "keywords": "ripple, bitcoin",
+  "homepage": "https://github.com/vhpoet/ripple-account-funder",
+  "bugs": "https://github.com/vhpoet/ripple-account-funder/issues",
+  "license": "MIT",
+  "author": "Vahe Hovhannisyan <vhpoet@gmail.com> (http://vahehovhannisyan.com)",
+  "bin": {
+    "raf": "./raf-cli.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git://github.com/vhpoet/ripple-account-funder.git"
+  },
+  "dependencies": {
+    "commander": ">= 2.0.0",
+    "ripple-lib": ""
+  },
+  "readmeFilename": "README.md"
+}
